@@ -111,13 +111,10 @@ for(var i = 0; i < enemyNames.length; i++) {
    }
   }
   // play again
-  startGame();
+  // startGame();
   // after the loop ends, player is either out of health or enemies to fight, so run the endGame function
   endGame();
 };
-
-// start the game when the page loads
-startGame();
 
 // function to end the entire game
 var endGame = function() {
@@ -138,8 +135,9 @@ var endGame = function() {
  else {
    window.alert("Thank you for playing Robot Gladiators! Come back soon!");
  }
-}
+};
 
- 
+// start the game when the page loads
+startGame();
 
 // fight();
